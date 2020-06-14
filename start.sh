@@ -2,7 +2,7 @@
 
 wget https://raw.githubusercontent.com/88lex/cleanremotes/master/cleanremotes
 
-echo 'Downloading rclone.conf and cleanremotes'
+echo 'Downloading cleanremotes'
 
 mkdir -vv -p /.config/rclone/ && cp rclone.conf /.config/rclone/ && \
 cp cleanremotes /usr/bin/ && chmod +x /usr/bin/cleanremotes
