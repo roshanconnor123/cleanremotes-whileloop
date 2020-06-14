@@ -7,7 +7,7 @@ echo 'Done. Starting cleanremotes with filter/flag:' $COMMAND
 
 while true
 do
-	sh cleanremotes && \
+	sh cleanremotes.sh && \
 	echo "Executing $COMMAND" && date || echo "ERROR: Command Failed!";
 	sleep $INTERVAL
 done
