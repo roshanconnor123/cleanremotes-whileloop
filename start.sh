@@ -1,7 +1,6 @@
 #!/bin/bash
 
 wget https://raw.githubusercontent.com/88lex/cleanremotes/master/cleanremotes
-wget $RCLONE_URL
 
 echo 'Downloading rclone.conf and cleanremotes'
 
