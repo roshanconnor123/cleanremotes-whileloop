@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mkdir -vv -p /.config/rclone/ && cp rclone.conf /.config/rclone/
+rclone config
 
 echo 'Done. Starting cleanremotes with filter/flag:' $COMMAND
 
