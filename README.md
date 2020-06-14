@@ -1,8 +1,10 @@
 # cleanremotes-heroku
 Executes cleanremote script periodically in heroku. https://github.com/88lex/cleanremotes <br>
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ssnjrthegr8/cleanremote-heroku)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ssnjrthegr8/cleanremotes-whileloop)
 <br>
+
+Fork and paste the contents of your rclone.conf to the rclone.conf in forked repo and hit deploy.
 
 Go to 
 1. 'https://kaffeine.herokuapp.com/' and put in your app name. This wont work otherwise.
