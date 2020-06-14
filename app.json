@@ -5,7 +5,7 @@
   "repository": "https://github.com/ssnjrthegr8/cleanremotes-heroku.git",
   "stack": "container",
   "env": {
-    "COMMAND": {
+    "REMOTE_NAME": {
       "description": "The cleanremote command filters/flags. The stuff that you type after ./cleanremote",
       "required":  "true"
     },

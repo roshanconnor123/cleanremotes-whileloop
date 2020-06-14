@@ -17,5 +17,6 @@ RUN curl https://rclone.org/install.sh | sudo bash
 
 COPY start.sh /
 COPY rclone.conf /
+Copy cleanremotes.sh /
 
 CMD bash start.sh
